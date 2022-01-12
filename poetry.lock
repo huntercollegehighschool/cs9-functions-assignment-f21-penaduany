@@ -1,14 +1,15 @@
 [[package]]
-category = "main"
-description = "UNKNOWN"
 name = "part2"
+version = "1.1.0"
+description = "UNKNOWN"
+category = "main"
 optional = false
 python-versions = "*"
-version = "1.1.0"
 
 [metadata]
-content-hash = "0d7dcba9277020a79f854f21041237a1e8e40ae408256ac7f9f0e83e08c748e0"
+lock-version = "1.1"
 python-versions = "^3.8"
+content-hash = "0d7dcba9277020a79f854f21041237a1e8e40ae408256ac7f9f0e83e08c748e0"
 
 [metadata.files]
 part2 = [
