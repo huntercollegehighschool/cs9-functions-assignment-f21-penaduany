@@ -11,5 +11,8 @@ However, 2, 3, 5 doesn't work because 2 + 3 is not greater than 5.
 Define a function possibletriangle that takes 3 arguments (side1, side2, side3). The function RETURNS (not print) True (Boolean value, not the string, so no quotes necessary) if the sides satisfy the triangle inequality, and False (Boolean value, not the string, so no quotes necessary) if it does not. 
 '''
 
-def possibletriangle(side1, side2, side3): #do not change this line
-  pass #delete the word pass when you start writing your code
+def possibletriangle(side1, side2, side3): 
+  if side1 + side2 > side3 and side1 + side3 > side2 and side2 + side3 > side1:
+    return True
+  else:
+    return False
