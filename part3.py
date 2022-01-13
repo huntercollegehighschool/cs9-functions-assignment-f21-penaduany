@@ -18,5 +18,16 @@ def factorial(number):
     product *= i
   return product
 
-def combination(n, r):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+def combination(n, r):
+  new_n = 1
+  for i in range (1, n + 1):
+    new_n *= i
+  new_r = 1
+  for w in range (1, r+1):
+    new_r *= w
+  n_minus_r = 1
+  for y in range (1, n-r + 1):
+    n_minus_r *= y
+  answer = new_n / (new_r * n_minus_r)
+  return answer
+  
